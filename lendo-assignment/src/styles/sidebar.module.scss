@@ -1,0 +1,17 @@
+.sidebar {
+  width: 360px;
+  height: 900px;
+  border-right: 1px solid #e5e5f3;
+
+  &__logoContainer {
+    height: 132px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    margin: 0 40px;
+    border-bottom: 1px solid #e5e5f3;
+  }
+  &__content {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}

@@ -1,0 +1,17 @@
+.autoInvestContainer {
+  padding: 56px 64px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    .title {
+      color: #0d0f52;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 40px;
+      display: block;
+    }
+  }
+  &__dashboard {
+    margin-top: 32px;
+  }
+}

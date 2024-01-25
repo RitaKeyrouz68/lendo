@@ -1,0 +1,27 @@
+.button {
+  border: 0;
+  background: transparent;
+  padding: 14px 24px;
+  font-size: 14px;
+  border-radius: 42px;
+  cursor: pointer;
+  line-height: 20px;
+  display: block;
+  &.primary {
+    background: #2d91fe;
+    font-weight: 600;
+    color: #fff;
+  }
+  &.secondary {
+    font-weight: 400;
+    border: 1px solid #e5e5f3;
+    letter-spacing: 0.14px;
+    color: #0d0f52;
+  }
+  &.danger {
+    background-color: #ff6769;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

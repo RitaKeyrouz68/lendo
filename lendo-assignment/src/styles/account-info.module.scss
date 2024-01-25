@@ -1,0 +1,64 @@
+.accountInfo {
+  height: 344px;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #e5e5f3;
+  &__balanceContainer {
+    display: flex;
+    column-gap: 8px;
+    height: 56px;
+    margin-bottom: 28px;
+    .balanceValue {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      display: block;
+      color: #0d0f52;
+    }
+    .balanceActions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 166px;
+      .label {
+        font-size: 14px;
+        font-weight: 400;
+        display: block;
+        line-height: 20px;
+        color: #0d0f52;
+      }
+      .actionBtn {
+        border: 0;
+        background: 0;
+        padding: 0;
+      }
+    }
+  }
+  &__buttonsContainer {
+    width: 232px;
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 40px;
+  }
+  &__infoContainer {
+    display: flex;
+    column-gap: 12px;
+    .infoMessage {
+      width: 199px;
+      opacity: 0.5;
+      color: #0d0f52;
+      font-size: 14px;
+      line-height: 20px;
+      display: block;
+      letter-spacing: 0.14px;
+    }
+    .bold {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}

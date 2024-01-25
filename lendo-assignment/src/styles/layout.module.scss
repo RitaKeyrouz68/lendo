@@ -1,0 +1,6 @@
+.layout {
+  display: flex;
+  &__contentContainer {
+    width: calc(100% - 360px);
+  }
+}

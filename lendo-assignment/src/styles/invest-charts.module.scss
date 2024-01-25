@@ -1,0 +1,29 @@
+.chartsContainer {
+  display: flex;
+  margin-top: 32px;
+  column-gap: 24px;
+  height: 368px;
+  &__chartContainer {
+    width: calc((100% - 24px) / 2);
+    border-radius: 16px;
+    border: 1px solid #e5e5f3;
+    padding: 0 48px;
+    .title {
+      color: #0d0f52;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      display: block;
+    }
+    .tabTitle {
+      margin-top: 40px;
+      img {
+        margin-left: 8px;
+      }
+    }
+    .pieTitle {
+      margin-top: 48px;
+      width: 297px;
+    }
+  }
+}

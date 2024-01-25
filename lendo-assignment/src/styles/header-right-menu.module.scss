@@ -1,0 +1,32 @@
+.headerRightMenu {
+  display: flex;
+  column-gap: 40px;
+  height: 132px;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: #0d0f52;
+  &__lang {
+    opacity: 0.5;
+  }
+  &__notificationContainer {
+    position: relative;
+    cursor: pointer;
+    .notificationCount {
+      width: 16px;
+      height: 16px;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      background: #2d91fe;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: -8px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      bottom: -4px;
+    }
+  }
+}

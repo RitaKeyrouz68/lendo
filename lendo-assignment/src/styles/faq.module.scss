@@ -1,0 +1,33 @@
+.faqContainer {
+  margin-top: 72px;
+  &__title {
+    color: #0d0f52;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 40px;
+    display: block;
+  }
+  &__list {
+    .faqDropdown {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      margin-top: 20px;
+      &:not(:last-child) {
+        border-bottom: 1px solid #e5e5f3;
+      }
+
+      .faq {
+        color: #0d0f52;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        display: block;
+      }
+      img {
+        opacity: 0.3;
+      }
+    }
+  }
+}
